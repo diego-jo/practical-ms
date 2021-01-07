@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  practical_microservices_db:
+    image: postgres:10.3
+    environment:
+      - POSTGRES_DB=ms1
+    ports:
+      - 5432:5432
